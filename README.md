@@ -1,1 +1,4 @@
-# DP_practice
+# DP
+==============
+ - DP pracitice w.acmicpc.net
+ 
