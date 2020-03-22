@@ -1,0 +1,16 @@
+    #include<iostream>
+    using namespace std;
+
+    int main(){
+        int b[1001], n, i;
+        b[1]=1;
+        b[2]=3;
+
+        cin>>n;
+
+        for(i=3; i<=n; i++){
+            b[i]=(b[i-1]+(b[i-2]*2))%10007;
+        }
+        
+        cout << b[n];
+    }
